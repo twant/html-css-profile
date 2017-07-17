@@ -1,0 +1,52 @@
+body {
+    font-family: Helvetica;
+}
+h1 {
+    color: #FF5335;
+}
+
+.header{
+    background: #1D181F;
+    min-height: 250px;
+    border-bottom: 6px solid #306E73;
+}
+
+/*give your body-background a diffferent color than the header*/
+.body-background{
+    background-color:#3B424C;
+    height:100vh;
+    min-height:300px;
+}
+
+.profile {
+    background: #B29C85;
+    width:50%;
+    position: absolute;
+    top:10%;
+    left: 25%;
+    padding: 2%;
+    /*text-align:center;*/
+}
+
+.profile img{
+   width:30%;
+   border-radius:50%;
+   /*this will center the picture inside of the profile div*/
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.list{
+    width:40%;
+    background:white;
+    text-align:center;
+    display:inline-block;
+    margin-left:5%;
+    margin-top:3%;
+}
+
+.list li{
+    font-size:2em;
+}
